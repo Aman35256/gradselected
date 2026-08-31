@@ -4,8 +4,8 @@ import { DirectContactCard, PageFrame } from '@/components/site-shell'
 
 const programs = [
   { icon: GraduationCap, title: 'MBA & B-School Admissions', text: 'Build a compelling profile and find the right fit for India’s leading business schools.' },
-  { icon: BookOpen, title: 'Entrance Exam Preparation', text: 'Structured preparation for CAT, GMAT, NMAT, SNAP, CUET and more.' },
-  { icon: LineChart, title: 'Profile Building', text: 'Turn your experiences into a clear, confident story that stands out.' },
+  { icon: BookOpen, title: 'Engineering & Medical Admissions', text: 'Expert guidance for admission to leading engineering and medical colleges in India.' },
+  { icon: LineChart, title: 'Foreign University Admissions', text: 'Build a strong application profile for admission to universities abroad.' },
 ]
 const stats = [['2,500+', 'Students guided'], ['96%', 'Top-choice admits'], ['15+', 'Years of expertise'], ['25+', 'Partner colleges']]
 
