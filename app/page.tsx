@@ -1,47 +1,21 @@
+import Link from 'next/link'
+import { ArrowUpRight, BookOpen, CheckCircle2, GraduationCap, LineChart, Users } from 'lucide-react'
+import { DirectContactCard, PageFrame } from '@/components/site-shell'
+
+const programs = [
+  { icon: GraduationCap, title: 'MBA & B-School Admissions', text: 'Build a compelling profile and find the right fit for India’s leading business schools.' },
+  { icon: BookOpen, title: 'Entrance Exam Preparation', text: 'Structured preparation for CAT, GMAT, NMAT, SNAP, CUET and more.' },
+  { icon: LineChart, title: 'Profile Building', text: 'Turn your experiences into a clear, confident story that stands out.' },
+]
+const stats = [['2,500+', 'Students guided'], ['96%', 'Top-choice admits'], ['15+', 'Years of expertise'], ['25+', 'Partner colleges']]
+
 export default function Page() {
-  return (
-    <main
-      style={{
-        colorScheme: 'light dark',
-        position: 'relative',
-        display: 'flex',
-        minHeight: '100vh',
-        alignItems: 'center',
-        justifyContent: 'center',
-        backgroundColor: 'light-dark(#fff, #000)',
-        color: 'light-dark(#000, #fff)',
-      }}
-    >
-      <svg
-        aria-hidden="true"
-        style={{ width: 80, height: 80 }}
-        width={80}
-        height={80}
-        fill="none"
-        viewBox="0 0 20 20"
-        xmlns="http://www.w3.org/2000/svg"
-        stroke="currentColor"
-        strokeWidth="0.5"
-      >
-        <path
-          d="M14.2 14.2H17V6.9375C17 4.76288 15.2371 3 13.0625 3H5.8V5.8M14.2 14.2V7.79063L7.79062 14.2H14.2ZM14.2 14.2V17H6.9375C4.76288 17 3 15.2371 3 13.0625V5.8H5.8M5.8 5.8V12.2313L12.2313 5.8H5.8Z"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <p
-        style={{
-          position: 'absolute',
-          left: '50%',
-          top: 'calc(50% + 56px)',
-          transform: 'translateX(-50%)',
-          whiteSpace: 'nowrap',
-          fontSize: '14px',
-          fontWeight: 500,
-          color: 'light-dark(#71717a, #a1a1aa)',
-        }}
-      >
-        Your v0 generation will show here.
-      </p>
-    </main>
-  )
+  return <PageFrame><main>
+    <section className="border-b border-border bg-secondary"><div className="mx-auto grid max-w-7xl items-center gap-12 px-5 py-16 sm:px-8 md:grid-cols-[1.1fr_.9fr] md:py-24"><div><p className="mb-5 inline-flex items-center gap-2 rounded-full border border-primary/20 bg-background px-3 py-1.5 text-xs font-bold uppercase tracking-[0.16em] text-primary"><span className="size-2 rounded-full bg-accent" /> Admissions, made personal</p><h1 className="max-w-3xl text-balance text-4xl font-bold leading-[1.08] tracking-tight text-ink sm:text-6xl">A clearer path to the <span className="text-primary">right future.</span></h1><p className="mt-6 max-w-xl text-pretty text-base leading-7 text-muted-foreground sm:text-lg">Edu Tech helps students make confident academic decisions, prepare with purpose, and reach the institutions where they can thrive.</p><div className="mt-8 flex flex-wrap gap-3"><a href="tel:+919876543210" className="inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-3.5 text-sm font-bold text-primary-foreground">Talk to an expert <ArrowUpRight className="size-4" /></a><Link href="/admissions" className="inline-flex items-center gap-2 rounded-lg border border-ink/20 bg-background px-5 py-3.5 text-sm font-bold text-ink">Explore admissions</Link></div></div><div className="rounded-[2rem] bg-primary p-6 shadow-2xl"><div className="flex justify-between text-primary-foreground/70"><span className="font-mono text-sm">ET / 2026</span><span className="rounded-full border border-primary-foreground/30 px-3 py-1 text-xs">Since 2011</span></div><div className="my-12 grid place-items-center"><div className="grid size-48 place-items-center rounded-full border-[18px] border-accent bg-ink/10"><span className="font-mono text-3xl font-bold text-primary-foreground">96%</span></div></div><div className="rounded-xl bg-background p-4 text-ink"><p className="text-xs font-bold uppercase tracking-[0.14em] text-primary">The Edu Tech promise</p><p className="mt-1 font-semibold">Clarity in every decision.</p></div></div></div></section>
+    <section className="border-b border-border bg-background"><div className="mx-auto grid max-w-7xl grid-cols-2 divide-x divide-y divide-border sm:grid-cols-4 sm:divide-y-0">{stats.map(([value, label]) => <div key={label} className="px-5 py-7 text-center sm:px-8 sm:py-9"><p className="font-mono text-3xl font-bold text-primary">{value}</p><p className="mt-1 text-sm text-muted-foreground">{label}</p></div>)}</div></section>
+    <section className="mx-auto max-w-7xl px-5 py-20 sm:px-8 md:py-28"><div className="mb-10 flex flex-col justify-between gap-5 sm:flex-row sm:items-end"><div><p className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-primary">What we do</p><h2 className="max-w-xl text-balance text-3xl font-bold tracking-tight text-ink sm:text-4xl">A complete ecosystem for your next chapter.</h2></div><Link href="/about" className="inline-flex items-center gap-2 text-sm font-bold text-primary">Why Edu Tech <ArrowUpRight className="size-4" /></Link></div><div className="grid gap-4 md:grid-cols-3">{programs.map(({ icon: Icon, title, text }) => <article key={title} className="group rounded-2xl border border-border bg-background p-6 transition hover:-translate-y-1 hover:border-primary/40 hover:shadow-lg"><div className="mb-10 grid size-12 place-items-center rounded-xl bg-secondary text-primary"><Icon className="size-6" /></div><h3 className="text-xl font-bold text-ink">{title}</h3><p className="mt-3 leading-7 text-muted-foreground">{text}</p><Link href="/admissions" className="mt-6 inline-flex items-center gap-2 text-sm font-bold text-primary">Learn more <ArrowUpRight className="size-4" /></Link></article>)}</div></section>
+    <section className="bg-ink text-primary-foreground"><div className="mx-auto grid max-w-7xl gap-12 px-5 py-20 sm:px-8 md:grid-cols-[.9fr_1.1fr] md:items-center md:py-28"><div><p className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-accent">The Edu Tech difference</p><h2 className="text-balance text-3xl font-bold tracking-tight sm:text-4xl">Advice that sees the student, not just the score.</h2></div><div className="grid gap-8 sm:grid-cols-2"><div><Users className="mb-4 size-7 text-accent" /><h3 className="font-bold">Personalised guidance</h3><p className="mt-2 leading-7 text-primary-foreground/60">Every plan begins with your goals, strengths, and ambitions.</p></div><div><CheckCircle2 className="mb-4 size-7 text-accent" /><h3 className="font-bold">Proven outcomes</h3><p className="mt-2 leading-7 text-primary-foreground/60">Practical strategy, honest feedback, and a team invested in your result.</p></div></div></div></section>
+    <section className="mx-auto max-w-7xl px-5 py-20 sm:px-8 md:py-24"><div className="grid gap-10 md:grid-cols-[.8fr_1.2fr] md:items-center"><div><p className="mb-3 text-sm font-bold uppercase tracking-[0.16em] text-primary">A track record you can trust</p><h2 className="text-balance text-3xl font-bold tracking-tight text-ink sm:text-4xl">Small steps. Significant outcomes.</h2><p className="mt-5 leading-7 text-muted-foreground">From first conversation to final acceptance, our counsellors stay close to the details that make your journey yours.</p><Link href="/achievements" className="mt-7 inline-flex items-center gap-2 rounded-lg bg-primary px-5 py-3 text-sm font-bold text-primary-foreground">See student stories <ArrowUpRight className="size-4" /></Link></div><div className="grid gap-4 sm:grid-cols-2"><div className="rounded-2xl bg-secondary p-6"><p className="font-mono text-4xl font-bold text-primary">98%</p><p className="mt-3 font-semibold text-ink">Students recommend us</p><p className="mt-2 text-sm leading-6 text-muted-foreground">Because the right support changes everything.</p></div><div className="rounded-2xl bg-accent p-6"><p className="font-mono text-4xl font-bold text-ink">4.9/5</p><p className="mt-3 font-semibold text-ink">Average student rating</p><p className="mt-2 text-sm leading-6 text-ink/65">Real guidance from real mentors.</p></div></div></div></section>
+    <section className="mx-auto max-w-7xl px-5 pb-20 sm:px-8 md:pb-28"><DirectContactCard /></section>
+  </main></PageFrame>
 }
