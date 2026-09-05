@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Edu Tech | A clearer path to the right future',
-  description: 'Personalised academic guidance, exam preparation, and admissions support for ambitious students.',
+  title: 'MBA Connect India | Guide, Prepare, Get There',
+  description: 'MBA Connect India helps students with engineering, medical, MBA, and foreign university admissions.',
   generator: 'v0.app',
   icons: {
     icon: [
