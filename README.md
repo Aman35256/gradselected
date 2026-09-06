@@ -258,11 +258,7 @@ The handover may include, depending on the agreed arrangement:
 
 ### Ownership
 
-Ownership and intellectual-property rights should be determined by the separate written agreement between the developer and MBAConnectIndia.
-
-This README documents the technical project and **does not itself constitute an ownership-transfer agreement**.
-
-Where an ownership-transfer agreement applies, that agreement takes precedence over this README regarding ownership, intellectual property, payment, liability, maintenance, and other contractual matters.
+This is owned by MBAConnectIndia.
 
 ---
 
@@ -340,27 +336,13 @@ Before final handover, the following should be verified:
 
 **Repository:** `gradselected`
 
-**Repository Owner:** Aman35256
+**Repository Owner:**
 
 **Project Type:** Academic Counselling & Admissions Website
 
 **Project Status:** Completed / Production Ready
 
 **Primary Framework:** Next.js
-
----
-
-# ⚖️ Legal & Licensing Note
-
-This repository's final license and ownership terms should be kept consistent with the written agreement governing the project.
-
-If the source code is transferred exclusively to MBAConnectIndia, the repository's `LICENSE` file and GitHub repository settings should be reviewed and updated accordingly.
-
-Third-party libraries and dependencies remain subject to their individual licenses. Ownership of the custom website implementation does not necessarily transfer rights to third-party software, services, trademarks, or externally hosted content.
-
-For legal interpretation, use the signed agreement between the relevant parties rather than this technical README.
-
----
 
 # 👨‍💻 Developer Handover Note
 
