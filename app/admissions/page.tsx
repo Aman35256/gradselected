@@ -30,7 +30,7 @@ export default function AdmissionsPage() {
                 Your application deserves a <span className="text-accent">strong strategy.</span>
               </h1>
               <p className="mt-6 max-w-2xl text-lg leading-8 text-primary-foreground/75">
-                From choosing an exam to choosing a college, Edu Tech gives you an experienced team for every important decision.
+                From choosing an exam to choosing a college, MBA Connect India gives you an experienced team for every important decision.
               </p>
               <a href="tel:+919876543210" className="mt-8 inline-flex items-center gap-2 rounded-lg bg-accent px-5 py-3.5 text-sm font-bold text-ink">
                 Speak with an advisor <ArrowUpRight className="size-4" />
