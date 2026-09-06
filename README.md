@@ -1,358 +1,635 @@
-# gradselected
+# MBAConnectIndia
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+> **MBAConnectIndia** is an academic counseling and education guidance platform designed to help students explore colleges, engineering programs, admissions opportunities, and international education pathways.
 
-## Built with v0
-
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
-
-[Continue working on v0 →](https://v0.app/chat/projects/prj_IRMdYSjzp7qWNAJpUpOSa4Hcz71r)
-
-## Getting Started
-
-<<<<<<< HEAD
-First, run the development server:
-=======
-**Status: COMPLETED — PRODUCTION READY**
-
-The website has been completed according to the agreed development scope and is ready for production use and client handover.
-
-The repository may still use the development name `gradselected`, but the **official customer-facing business/product name is MBAConnectIndia**.
-
-Any new feature, redesign, content change, maintenance request, integration, or additional development after completion should be treated as separate work unless otherwise agreed in writing.
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Vercel](https://img.shields.io/badge/Deployed%20with-Vercel-black?logo=vercel)](https://vercel.com/)
 
 ---
 
-## 🎯 Project Purpose
+## About MBAConnectIndia
 
-The purpose of MBAConnectIndia is to provide students with a clear and accessible platform for exploring higher-education opportunities and connecting with academic counsellors.
+**MBAConnectIndia** is an education and academic counseling platform focused on helping students make informed decisions about their higher-education journey.
 
-The website is structured around three major admission journeys:
+The platform brings together educational information and guidance across multiple categories, including:
 
-- **MBA & B-School Admissions**
-- **Engineering & Medical Admissions**
-- **Foreign University Admissions**
+- 🎓 College discovery
+- ⚙️ Engineering education
+- 📚 Admissions guidance
+- 🌎 International education
+- 🏆 Academic achievements
+- 👨‍🏫 Academic counseling
+- 📊 Structured college and course information
 
-The website combines informational content, admission-related data, student-focused sections, and direct counselling/contact actions into a single platform.
+The website is designed to provide students with an accessible, responsive, and easy-to-navigate platform for exploring educational opportunities.
 
 ---
 
-## ✨ Completed Features
+## Project Information
 
-### 🎓 MBA & B-School Admissions
+| Property         | Details                         |
+| ---------------- | ------------------------------- |
+| **Company**      | MBAConnectIndia                 |
+| **Project**      | MBAConnectIndia Website         |
+| **Repository**   | `gradselected`                  |
+| **Framework**    | Next.js                         |
+| **Language**     | TypeScript                      |
+| **UI**           | React + Tailwind CSS            |
+| **Deployment**   | Vercel                          |
+| **Project Type** | Education / Academic Counseling |
+| **Status**       | Production Website              |
 
-A dedicated section for students exploring MBA programs, business schools, and management admissions in India.
+### Repository
 
-### 🏥 Engineering & Medical Admissions
+https://github.com/Aman35256/gradselected
 
-A dedicated admission journey for students considering engineering and medical education and related colleges.
+### Production Website
 
-### 🌎 Foreign University Admissions
+https://gradselected.vercel.app/
 
-A dedicated section for students interested in studying abroad and exploring international university opportunities.
+---
 
-### 🏫 College & University Information
+# Features
 
-Structured admission and institution information is used to support students during their college-selection journey.
+## 🎓 College Discovery
 
-### 👨‍🏫 Academic Counselling
+Students can explore structured information about colleges and educational opportunities.
 
-The website provides clear calls-to-action for students who want to speak with an advisor or seek personalised guidance.
+## ⚙️ Engineering Education
 
-### 📱 Responsive Website
+A dedicated section for engineering-related educational information and opportunities.
 
-The completed interface is designed for:
+## 🌎 International Education
+
+The platform provides a dedicated experience for students interested in studying abroad and exploring international education opportunities.
+
+## 📚 Admissions
+
+Admissions-related information is organized into dedicated sections to help students understand available opportunities.
+
+## 🏆 Achievements
+
+The website includes an achievements section for showcasing relevant academic accomplishments and information.
+
+## 👨‍🏫 Academic Counseling
+
+MBAConnectIndia is designed around the broader goal of helping students make better academic and career decisions through guidance and counseling.
+
+## 📱 Responsive Design
+
+The website is designed for:
 
 - Desktop
 - Laptop
 - Tablet
-- Mobile devices
-
-### 🎨 Modern User Interface
-
-The website uses a consistent visual system with reusable components, responsive layouts, icons, imagery, cards, buttons, and admission-focused content sections.
-
-### 📊 Admission Data
-
-The project includes structured JSON data for admission-related information.
-
-The data workflow supports synchronisation from publicly accessible Google Sheets.
-
-### 📈 Analytics
-
-Vercel Analytics is integrated for website analytics and usage insights.
+- Mobile
 
 ---
 
-## 🛠️ Technology Stack
+# Technology Stack
 
-| Technology           | Purpose                               |
-| -------------------- | ------------------------------------- |
-| **Next.js**          | Web application framework             |
-| **React**            | User interface                        |
-| **TypeScript**       | Type-safe development                 |
-| **Tailwind CSS**     | Styling and responsive design         |
-| **shadcn/ui**        | Reusable UI components                |
-| **Lucide React**     | Interface icons                       |
-| **Vercel Analytics** | Website analytics                     |
-| **JSON**             | Local application data storage        |
+```mermaid
+flowchart LR
+
+    A[MBAConnectIndia] --> B[Next.js]
+    B --> C[React]
+    B --> D[TypeScript]
+    B --> E[Tailwind CSS]
+
+    A --> F[JSON Data]
+    A --> G[Vercel Analytics]
+
+    F --> H[College Data]
+    F --> I[Engineering Data]
+    F --> J[Foreign Education Data]
+```
+
+### Core Technologies
+
+| Technology       | Purpose                   |
+| ---------------- | ------------------------- |
+| Next.js          | Web application framework |
+| React            | User interface            |
+| TypeScript       | Type-safe development     |
+| Tailwind CSS     | Styling                   |
+| Lucide React     | Icons                     |
+| Vercel Analytics | Analytics                 |
+| Node.js          | Development environment   |
 
 ---
 
-## 📁 Project Structure
+# Application Architecture
 
-```text
-gradselected/
-├── app/                    # Next.js application routes and pages
-├── components/             # Reusable UI components
-├── data/                   # Admission and college JSON data
-├── lib/                    # Shared utilities and application logic
-├── public/                 # Images and static assets
-├── scripts/                # Data synchronisation scripts
-├── components.json         # UI component configuration
-├── next.config.mjs         # Next.js configuration
-├── package.json            # Dependencies and scripts
-├── postcss.config.mjs      # PostCSS configuration
-├── tsconfig.json           # TypeScript configuration
-└── README.md               # Project documentation
+```mermaid
+flowchart TD
+
+    USER[Student / Visitor]
+
+    USER --> WEBSITE[MBAConnectIndia Website]
+
+    WEBSITE --> NEXT[Next.js Application]
+
+    NEXT --> ROUTES[Application Routes]
+
+    ROUTES --> HOME[Home]
+    ROUTES --> COLLEGES[College Discovery]
+    ROUTES --> ENGINEERING[Engineering]
+    ROUTES --> FOREIGN[Foreign Education]
+    ROUTES --> ADMISSIONS[Admissions]
+    ROUTES --> ACHIEVEMENTS[Achievements]
+    ROUTES --> ABOUT[About]
+
+    NEXT --> COMPONENTS[Reusable Components]
+
+    COMPONENTS --> UI[UI Components]
+    COMPONENTS --> SHELL[Site Shell]
+
+    NEXT --> DATA[Structured Data]
+
+    DATA --> COLLEGES_JSON[colleges.json]
+    DATA --> ENGINEERING_JSON[engineering.json]
+    DATA --> FOREIGN_JSON[foreign.json]
+
+    NEXT --> ANALYTICS[Vercel Analytics]
 ```
 
 ---
 
-## 🚀 Local Setup
+# Project Structure
 
-Although the project is completed, the following instructions allow the owner or future developer to run the source code locally.
+```text
+gradselected/
+│
+├── app/
+│   ├── about/
+│   ├── achievements/
+│   ├── admissions/
+│   ├── engineering/
+│   ├── foreign/
+│   │
+│   ├── globals.css
+│   ├── icon.png
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/
+│   ├── ui/
+│   └── site-shell.tsx
+│
+├── data/
+│   ├── colleges.json
+│   ├── engineering.json
+│   └── foreign.json
+│
+├── lib/
+│   └── utils.ts
+│
+├── public/
+│   └── static assets
+│
+├── scripts/
+│   └── sync-sheets.mjs
+│
+├── .gitignore
+├── components.json
+├── next.config.mjs
+├── next-env.d.ts
+├── package.json
+├── package-lock.json
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+├── postcss.config.mjs
+├── tsconfig.json
+└── README.md
+```
 
-### Prerequisites
+This structure reflects the current repository, which contains the `app`, `components`, `data`, `lib`, `public`, and `scripts` directories.
+
+---
+
+# Data Architecture
+
+MBAConnectIndia currently uses structured JSON datasets for education-related information.
+
+```mermaid
+flowchart TD
+
+    DATA[Education Data]
+
+    DATA --> COLLEGES[colleges.json]
+    DATA --> ENGINEERING[engineering.json]
+    DATA --> FOREIGN[foreign.json]
+
+    COLLEGES --> APP[Next.js Application]
+    ENGINEERING --> APP
+    FOREIGN --> APP
+
+    APP --> USER[Website Visitor]
+```
+
+The data layer is intentionally separated from the UI so that educational information can be updated without redesigning the application.
+
+---
+
+# Data Synchronization
+
+The repository also contains:
+
+```text
+scripts/sync-sheets.mjs
+```
+
+This script is responsible for synchronizing configured Google Sheets data into local JSON datasets.
+
+```mermaid
+sequenceDiagram
+
+    participant SHEET as Google Sheets
+    participant SCRIPT as sync-sheets.mjs
+    participant JSON as JSON Files
+    participant NEXT as Next.js
+    participant USER as Student
+
+    SHEET->>SCRIPT: Export worksheet data
+    SCRIPT->>SCRIPT: Parse CSV
+    SCRIPT->>JSON: Generate JSON
+    JSON->>NEXT: Load data
+    NEXT->>USER: Display information
+```
+
+> **Production recommendation:** If MBAConnectIndia is intended to operate as a fully static website, the JSON files can become the primary source of truth and the Google Sheets synchronization dependency can be removed.
+
+---
+
+# Recommended Static Architecture
+
+For a production-oriented deployment, the preferred architecture is:
+
+```mermaid
+flowchart LR
+
+    ADMIN[Business / Content Administrator]
+
+    ADMIN --> JSON[JSON Data]
+
+    JSON --> GIT[Git Repository]
+
+    GIT --> BUILD[Next.js Production Build]
+
+    BUILD --> VERCEL[Vercel]
+
+    VERCEL --> WEBSITE[MBAConnectIndia]
+
+    WEBSITE --> STUDENTS[Students]
+```
+
+### Benefits
+
+- No runtime dependency on Google Sheets
+- Faster page delivery
+- Predictable builds
+- Easier backups
+- Version-controlled data
+- Easier migration between hosting providers
+- Suitable for a primarily static website
+
+---
+
+# Getting Started
+
+## Requirements
 
 Install:
 
-- Node.js
-- npm / pnpm / yarn
+- Node.js 20+
+- npm / pnpm / Yarn
 - Git
 
-### Clone the repository
+---
+
+## Clone Repository
 
 ```bash
 git clone https://github.com/Aman35256/gradselected.git
 cd gradselected
 ```
 
-### Install dependencies
+---
+
+## Install Dependencies
+
+Using npm:
 
 ```bash
 npm install
 ```
 
-### Run the development server
->>>>>>> 93419db (Remove Google Sheets dependency and use local JSON data)
+Or pnpm:
+
+```bash
+pnpm install
+```
+
+---
+
+## Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-## 📦 Available Scripts
-
-| Command            | Purpose                                             |
-| ------------------ | --------------------------------------------------- |
-| `npm run dev`      | Starts the development server                       |
-| `npm run build`    | Creates the production build                        |
-| `npm run start`    | Starts the production server                        |
-
-
-### Production build
-
-```bash
-npm run build
-npm run start
+```text
+http://localhost:3000
 ```
 
 ---
 
-## 📁 Application Data
+# Available Commands
 
-The website stores and manages all institution and college data locally in:
+| Command         | Purpose                   |
+| --------------- | ------------------------- |
+| `npm run dev`   | Start development server  |
+| `npm run build` | Create production build   |
+| `npm run start` | Start production server   |
+| `npm run sync`  | Synchronize external data |
+
+### Development
+
+```bash
+npm run dev
+```
+
+### Production Build
+
+```bash
+npm run build
+```
+
+### Production Server
+
+```bash
+npm run start
+```
+
+### Data Synchronization
+
+```bash
+npm run sync
+```
+
+---
+
+# Production Deployment
+
+MBAConnectIndia can be deployed using Vercel or another Next.js-compatible hosting provider.
+
+```mermaid
+flowchart LR
+
+    DEV[Developer]
+
+    DEV --> GITHUB[GitHub]
+
+    GITHUB --> MAIN[main]
+
+    MAIN --> VERCEL[Vercel]
+
+    VERCEL --> BUILD[Production Build]
+
+    BUILD --> DEPLOY[Deployment]
+
+    DEPLOY --> USERS[Website Visitors]
+```
+
+### Recommended deployment flow
+
+1. Push the latest code to GitHub.
+2. Connect the repository to Vercel.
+3. Configure the production domain.
+4. Configure required environment variables, if any.
+5. Run the production build.
+6. Verify all pages.
+7. Connect the final business domain.
+
+---
+
+# Production Checklist
+
+Before handing over the website to MBAConnectIndia:
+
+- [ ] Production domain connected
+- [ ] HTTPS enabled
+- [ ] Mobile responsiveness verified
+- [ ] Desktop responsiveness verified
+- [ ] Navigation tested
+- [ ] All forms tested
+- [ ] Advisor/contact buttons tested
+- [ ] JSON data verified
+- [ ] Images optimized
+- [ ] SEO metadata configured
+- [ ] Favicon configured
+- [ ] Analytics verified
+- [ ] 404 handling tested
+- [ ] Production build successful
+- [ ] No secrets committed
+- [ ] Data backup created
+- [ ] Google Sheets dependency reviewed
+- [ ] GitHub ownership/access configured
+
+---
+
+# Security
+
+Never commit sensitive information to the repository.
+
+Do not store:
+
+```text
+API keys
+Passwords
+Authentication tokens
+Private credentials
+Private student information
+Confidential business information
+```
+
+inside:
 
 ```text
 data/
-├── colleges.json       # MBA & B-School admissions data
-├── engineering.json    # Engineering & Medical admissions data
-└── foreign.json        # Foreign University admissions data
+public/
+app/
 ```
 
-The application reads directly from these local JSON files without any external network requests or third-party spreadsheet dependencies.
+or any other client-accessible location.
+
+Anything shipped to the browser should be considered publicly accessible.
 
 ---
 
-# 🌐 Production Deployment
+# Data Ownership
 
-The application is designed to run as a standard Next.js production application and can be deployed using a compatible hosting provider such as Vercel.
+The education data displayed by the website should be maintained and verified by the business/client before publication.
 
-A typical production deployment involves:
+MBAConnectIndia should ensure that:
+
+- College information is accurate.
+- Admission information is current.
+- External links are valid.
+- Published contact information is authorized.
+- Student-facing information is reviewed periodically.
+
+---
+
+# Development Guidelines
+
+## Components
+
+Use reusable components wherever possible.
+
+```text
+components/
+├── ui/
+└── site-shell.tsx
+```
+
+Avoid unnecessarily duplicating UI code across pages.
+
+---
+
+## Data
+
+Maintain consistent JSON structures.
+
+Example:
+
+```json
+[
+  {
+    "name": "Example College",
+    "location": "India",
+    "category": "Engineering"
+  }
+]
+```
+
+When updating data:
+
+1. Preserve existing fields.
+2. Preserve data types.
+3. Avoid accidental field renaming.
+4. Validate JSON.
+5. Test affected pages.
+6. Verify production build.
+
+---
+
+# Git Workflow
+
+Create a feature branch:
 
 ```bash
-npm install
-npm run build
-npm run start
+git checkout -b feature/your-feature
 ```
 
-For a managed deployment, connect the GitHub repository to the hosting provider and configure the production domain and any required environment variables.
+Test locally:
+
+```bash
+npm run dev
+```
+
+Verify production build:
+
+```bash
+npm run build
+```
+
+Commit:
+
+```bash
+git add .
+git commit -m "feat: describe your change"
+```
+
+Push:
+
+```bash
+git push origin feature/your-feature
+```
+
+Then create a Pull Request.
 
 ---
 
-## 🔐 Security & Credentials
+# Commit Convention
 
-**Never commit private credentials or API keys to this repository.**
+Recommended prefixes:
 
-Production configuration should use environment variables where applicable.
+| Prefix      | Purpose            |
+| ----------- | ------------------ |
+| `feat:`     | New feature        |
+| `fix:`      | Bug fix            |
+| `docs:`     | Documentation      |
+| `style:`    | Styling            |
+| `refactor:` | Code restructuring |
+| `perf:`     | Performance        |
+| `chore:`    | Maintenance        |
+| `data:`     | Data update        |
 
-Before modifying or deploying the project:
+Examples:
 
-- Do not commit `.env` files containing secrets.
-- Do not hard-code API keys.
-- Review access permissions for external services.
-- Keep third-party credentials under the business owner's control.
-- Review any publicly accessible data sources before changing their permissions.
-
-If credentials are required for future services, they should be configured by the website owner or authorised administrator through the relevant service.
-
----
-
-# 🤝 Client Handover
-
-This project is intended to be handed over to **MBAConnectIndia** as a completed website.
-
-The handover may include, depending on the agreed arrangement:
-
-- Website source code
-- GitHub repository
-- Production deployment
-- Website assets contained in the repository
-- Application configuration
-- Data synchronisation scripts
-- Documentation contained in this repository
-
-### Ownership
-
-This is owned by MBAConnectIndia.
+```text
+feat: add college search
+fix: correct admission information
+data: update college dataset
+docs: update deployment guide
+style: improve mobile navigation
+```
 
 ---
 
-# 🧾 Third-Party Services
+# Future Improvements
 
-The website uses or may depend on third-party services and technologies.
+Potential future improvements include:
 
-Examples include:
-
-- Next.js ecosystem
-- Vercel / Vercel Analytics
-- Google Sheets
-- External image/media assets where applicable
-- npm packages and open-source dependencies
-
-Third-party services remain subject to their respective terms, licenses, availability, and policies.
-
-The transfer of website source code does not automatically transfer ownership of third-party accounts, subscriptions, domains, hosting accounts, API keys, or external services.
-
-Those accounts should be transferred or controlled separately where applicable.
-
----
-
-# 🔧 Maintenance & Future Changes
-
-The website is considered complete as delivered.
-
-The following are examples of work that may constitute **additional development** after completion:
-
-- New website sections
-- New admission categories
-- Major design changes
-- New integrations
-- Backend development
-- Database implementation
-- Admin dashboards
-- Authentication systems
-- New APIs
-- New forms or workflows
-- Significant content restructuring
-- New third-party services
-- Performance optimisation beyond the completed scope
-- Ongoing maintenance or support
-
-Any such work should be agreed separately between the parties.
+- [ ] Replace Google Sheets dependency with JSON-only data management
+- [ ] Add automated JSON validation
+- [ ] Add advanced college filtering
+- [ ] Add college comparison
+- [ ] Add search functionality
+- [ ] Add sitemap generation
+- [ ] Add structured SEO metadata
+- [ ] Add automated testing
+- [ ] Add CI/CD checks
+- [ ] Add accessibility testing
+- [ ] Add automated broken-link checking
+- [ ] Add dedicated content management workflow
+- [ ] Add admin/content dashboard
 
 ---
 
-# 🧪 Final Production Checklist
+# Project Status
 
-Before final handover, the following should be verified:
+**MBAConnectIndia website is a production-oriented academic counseling platform.**
 
-- [ ] Production website is accessible
-- [ ] Domain is configured correctly
-- [ ] All major pages load correctly
-- [ ] MBA section works correctly
-- [ ] Engineering & Medical section works correctly
-- [ ] Foreign admissions section works correctly
-- [ ] Advisor/contact buttons work correctly
-- [ ] Forms and external links work correctly
-- [ ] Mobile responsiveness has been checked
-- [ ] Images and assets load correctly
-- [ ] Admission data is available
-- [ ] Data synchronisation works where required
-- [ ] Analytics is configured
-- [ ] Production build completes successfully
-- [ ] No private credentials are committed to GitHub
-- [ ] Client has received the required project access/details
+The current GitHub repository is named `gradselected`, while the customer-facing/business name of the project is **MBAConnectIndia**.
 
 ---
 
-# 📋 Repository Information
+# License & Ownership
 
-**Business / Product:** MBAConnectIndia
+This repository should not be treated as an open-source project unless a specific open-source license is intentionally added.
 
-**Repository:** `gradselected`
-
-**Repository Owner:**
-
-**Project Type:** Academic Counselling & Admissions Website
-
-**Project Status:** Completed / Production Ready
-
-**Primary Framework:** Next.js
-
-# 👨‍💻 Developer Handover Note
-
-The website has been delivered as a completed project for MBAConnectIndia.
-
-The source code is structured to allow the business owner or a future developer to:
-
-1. Clone the repository.
-2. Install the dependencies.
-3. Run the project locally.
-4. Build a production version.
-5. Deploy the application.
-6. Update admission data through the configured data workflow.
-7. Continue development independently if required.
+For a business/client project, ownership, usage rights, source-code transfer, maintenance responsibilities, and liability should be governed by the separate written agreement between the developer and **MBAConnectIndia**.
 
 ---
 
-## 📞 Business Identity
-
-**MBAConnectIndia**
-
-Academic counselling and admissions guidance for students pursuing opportunities in India and abroad.
-
-> **Helping students make better education decisions.**
-
----
-
-© MBAConnectIndia. Project documentation prepared for the completed website handover.
->>>>>>> 93419db (Remove Google Sheets dependency and use local JSON data)
+<p align="center">
+  <strong>MBAConnectIndia</strong><br>
+  Academic Counseling & Education Guidance
+</p>
