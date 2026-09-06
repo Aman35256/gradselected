@@ -9,7 +9,9 @@ const companyLogo = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/MBA
 const navItems = [
   { label: 'Home', href: '/' },
   { label: 'About Us', href: '/about' },
-  { label: 'Admissions', href: '/admissions' },
+  { label: 'MBA Admissions', href: '/admissions' },
+  { label: 'Engineering & Medical', href: '/engineering' },
+  { label: 'Foreign Universities', href: '/foreign' },
   { label: 'Achievements', href: '/achievements' },
 ]
 
@@ -50,8 +52,9 @@ export function SiteHeader() {
 }
 
 export function SiteFooter() {
-  return <footer className="bg-ink text-primary-foreground"><div className="mx-auto grid max-w-7xl gap-10 px-5 py-14 sm:px-8 md:grid-cols-[1.4fr_1fr_1fr] md:py-20"><div><div className="mb-5 flex items-center"><img src={companyLogo} alt="MBA Connect India — Guide, Prepare, Get There" className="h-16 w-auto rounded bg-primary-foreground object-contain p-1" /></div><p className="max-w-sm leading-7 text-primary-foreground/65">MBA, engineering, medical, and foreign university admissions guidance for ambitious students.</p></div><div><p className="mb-4 text-sm font-bold uppercase tracking-[0.18em] text-primary-foreground/45">Explore</p><div className="flex flex-col gap-3 text-primary-foreground/70">{navItems.slice(1).map((item) => <Link key={item.href} href={item.href} className="transition hover:text-primary-foreground">{item.label}</Link>)}</div></div><div><p className="mb-4 text-sm font-bold uppercase tracking-[0.18em] text-primary-foreground/45">Get in touch</p><div className="flex flex-col gap-3 text-primary-foreground/70"><a href="tel:+919876543210" className="transition hover:text-primary-foreground">+91 98765 43210</a><a href="mailto:hello@edutech.in" className="transition hover:text-primary-foreground">hello@edutech.in</a><p>Mumbai · Pune · Online</p></div></div></div><div className="border-t border-primary-foreground/10"><div className="mx-auto max-w-7xl px-5 py-5 text-sm text-primary-foreground/45 sm:px-8">© 2026 Edu Tech. Built for brighter beginnings.</div></div></footer>
+  return <footer className="bg-ink text-primary-foreground"><div className="mx-auto grid max-w-7xl gap-10 px-5 py-14 sm:px-8 md:grid-cols-[1.4fr_1fr_1fr] md:py-20"><div><div className="mb-5 flex items-center"><img src={companyLogo} alt="MBA Connect India — Guide, Prepare, Get There" className="h-16 w-auto rounded bg-primary-foreground object-contain p-1" /></div><p className="max-w-sm leading-7 text-primary-foreground/65">MBA, engineering, medical, and foreign university admissions guidance for ambitious students.</p></div><div><p className="mb-4 text-sm font-bold uppercase tracking-[0.18em] text-primary-foreground/45">Explore</p><div className="flex flex-col gap-3 text-primary-foreground/70">{navItems.slice(1).map((item) => <Link key={item.href} href={item.href} className="transition hover:text-primary-foreground">{item.label}</Link>)}</div></div><div><p className="mb-4 text-sm font-bold uppercase tracking-[0.18em] text-primary-foreground/45">Get in touch</p><div className="flex flex-col gap-3 text-primary-foreground/70"><a href="tel:+919876543210" className="transition hover:text-primary-foreground">+91 98765 43210</a><a href="mailto:hello@edutech.in" className="transition hover:text-primary-foreground">hello@edutech.in</a><p>Noida · Delhi · India</p></div></div></div><div className="border-t border-primary-foreground/10"><div className="mx-auto max-w-7xl px-5 py-5 text-sm text-primary-foreground/45 sm:px-8">© 2026 MBA Connect India. Built for brighter beginnings.</div></div></footer>
 }
+
 
 export function DirectContactCard() {
   return <div className="flex flex-col gap-4 rounded-2xl bg-secondary p-6 sm:flex-row sm:items-center sm:justify-between"><div><p className="mb-1 text-sm font-bold uppercase tracking-[0.16em] text-primary">Start a conversation</p><h3 className="text-xl font-bold text-ink">Your next step can start today.</h3></div><div className="flex flex-wrap gap-3"><a href="tel:+919876543210" className="rounded-lg bg-primary px-5 py-3 text-sm font-bold text-primary-foreground transition hover:bg-primary/90">Call now</a><a href="mailto:hello@edutech.in" className="rounded-lg border border-primary/30 px-5 py-3 text-sm font-bold text-primary transition hover:bg-primary/10">Email us</a></div></div>

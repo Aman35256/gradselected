@@ -1,0 +1,140 @@
+[
+  {
+    "institution": "NMIMS",
+    "location": "Mumbai",
+    "programs": "MBA / Management",
+    "counsellorSupport": "Counselling & application guidance"
+  },
+  {
+    "institution": "Symbiosis Institute of Business Management",
+    "location": "Pune",
+    "programs": "MBA",
+    "counsellorSupport": "Counselling & application guidance"
+  },
+  {
+    "institution": "Christ University",
+    "location": "Bengaluru",
+    "programs": "MBA",
+    "counsellorSupport": "Counselling & application guidance"
+  },
+  {
+    "institution": "Amity University",
+    "location": "Noida",
+    "programs": "MBA / Management",
+    "counsellorSupport": "Counselling & application guidance"
+  },
+  {
+    "institution": "ICFAI Business School",
+    "location": "Hyderabad",
+    "programs": "MBA / PGPM",
+    "counsellorSupport": "Counselling & application guidance"
+  },
+  {
+    "institution": "Welingkar Institute of Management",
+    "location": "Mumbai",
+    "programs": "MBA / PGDM",
+    "counsellorSupport": "Counselling & application guidance"
+  },
+  {
+    "institution": "XIME",
+    "location": "Bengaluru",
+    "programs": "MBA / PGDM",
+    "counsellorSupport": "Counselling & application guidance"
+  },
+  {
+    "institution": "JAGSoM",
+    "location": "Bengaluru",
+    "programs": "MBA / PGDM",
+    "counsellorSupport": "Counselling & application guidance"
+  },
+  {
+    "institution": "Alliance University",
+    "location": "Bengaluru",
+    "programs": "MBA",
+    "counsellorSupport": "Counselling & application guidance"
+  },
+  {
+    "institution": "UPES School of Business",
+    "location": "Dehradun",
+    "programs": "MBA",
+    "counsellorSupport": "Counselling & application guidance"
+  },
+  {
+    "institution": "Chandigarh University",
+    "location": "Chandigarh",
+    "programs": "MBA",
+    "counsellorSupport": "Counselling & application guidance"
+  },
+  {
+    "institution": "Lovely Professional University",
+    "location": "Punjab",
+    "programs": "MBA",
+    "counsellorSupport": "Counselling & application guidance"
+  },
+  {
+    "institution": "Sharda University",
+    "location": "Greater Noida",
+    "programs": "MBA",
+    "counsellorSupport": "Counselling & application guidance"
+  },
+  {
+    "institution": "Galgotias University",
+    "location": "Greater Noida",
+    "programs": "MBA",
+    "counsellorSupport": "Counselling & application guidance"
+  },
+  {
+    "institution": "Bennett University",
+    "location": "Greater Noida",
+    "programs": "MBA",
+    "counsellorSupport": "Counselling & application guidance"
+  },
+  {
+    "institution": "IILM University",
+    "location": "Gurugram",
+    "programs": "MBA",
+    "counsellorSupport": "Counselling & application guidance"
+  },
+  {
+    "institution": "Jaipuria Institute of Management",
+    "location": "Noida",
+    "programs": "MBA / PGDM",
+    "counsellorSupport": "Counselling & application guidance"
+  },
+  {
+    "institution": "JIMS Rohini",
+    "location": "Delhi",
+    "programs": "MBA / PGDM",
+    "counsellorSupport": "Counselling & application guidance"
+  },
+  {
+    "institution": "SOIL Institute of Management",
+    "location": "Gurugram",
+    "programs": "MBA / PGDM",
+    "counsellorSupport": "Counselling & application guidance"
+  },
+  {
+    "institution": "Great Lakes Institute of Management",
+    "location": "Chennai",
+    "programs": "MBA / PGDM",
+    "counsellorSupport": "Counselling & application guidance"
+  },
+  {
+    "institution": "KJ Somaiya Institute of Management",
+    "location": "Mumbai",
+    "programs": "MBA",
+    "counsellorSupport": "Counselling & application guidance"
+  },
+  {
+    "institution": "MIT World Peace University",
+    "location": "Pune",
+    "programs": "MBA",
+    "counsellorSupport": "Counselling & application guidance"
+  },
+  {
+    "institution": "KIIT School of Management",
+    "location": "Bhubaneswar",
+    "programs": "MBA",
+    "counsellorSupport": "Counselling & application guidance"
+  }
+]

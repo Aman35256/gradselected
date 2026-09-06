@@ -1,0 +1,242 @@
+[
+  {
+    "institution": "University of Birmingham",
+    "location": "UK",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "University of Manchester",
+    "location": "UK",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "University of Leeds",
+    "location": "UK",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "University of Nottingham",
+    "location": "UK",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "University of Glasgow",
+    "location": "UK",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "University of Southampton",
+    "location": "UK",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "University of Exeter",
+    "location": "UK",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "Coventry University",
+    "location": "UK",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "University of Hertfordshire",
+    "location": "UK",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "University of Melbourne",
+    "location": "Australia",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "Monash University",
+    "location": "Australia",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "University of Sydney",
+    "location": "Australia",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "UNSW Sydney",
+    "location": "Australia",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "University of Queensland",
+    "location": "Australia",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "RMIT University",
+    "location": "Australia",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "Deakin University",
+    "location": "Australia",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "University of Toronto",
+    "location": "Canada",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "University of British Columbia",
+    "location": "Canada",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "McGill University",
+    "location": "Canada",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "University of Alberta",
+    "location": "Canada",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "University of Waterloo",
+    "location": "Canada",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "York University",
+    "location": "Canada",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "University of Ottawa",
+    "location": "Canada",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "Arizona State University",
+    "location": "USA",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "University of Arizona",
+    "location": "USA",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "Purdue University",
+    "location": "USA",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "Northeastern University",
+    "location": "USA",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "University of Illinois Chicago",
+    "location": "USA",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "University of Texas at Dallas",
+    "location": "USA",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "Drexel University",
+    "location": "USA",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "Trinity College Dublin",
+    "location": "Ireland",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "University College Dublin",
+    "location": "Ireland",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "Technical University of Munich",
+    "location": "Germany",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "RWTH Aachen University",
+    "location": "Germany",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "University of Mannheim",
+    "location": "Germany",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "University of Auckland",
+    "location": "New Zealand",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "University of Otago",
+    "location": "New Zealand",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "University of Wollongong in Dubai",
+    "location": "UAE",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "Heriot-Watt University Dubai",
+    "location": "UAE",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  },
+  {
+    "institution": "Middlesex University Dubai",
+    "location": "UAE",
+    "programs": "Undergraduate / Postgraduate",
+    "counsellorSupport": "Application & admissions counselling"
+  }
+]
