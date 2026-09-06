@@ -1,4 +1,5 @@
-﻿import { ArrowUpRight, MapPin, Globe } from "lucide-react"
+import Image from "next/image"
+import { ArrowUpRight, MapPin, Globe } from "lucide-react"
 import { DirectContactCard, PageFrame } from "@/components/site-shell"
 import foreign from "@/data/foreign.json"
 
@@ -34,22 +35,34 @@ export default function ForeignPage() {
       <main>
         {/* Hero */}
         <section className="bg-primary text-primary-foreground">
-          <div className="mx-auto max-w-7xl px-5 py-20 sm:px-8 md:py-28">
-            <p className="mb-4 text-sm font-bold uppercase tracking-[0.16em] text-accent">Foreign University Admissions</p>
-            <h1 className="max-w-3xl text-balance text-4xl font-bold tracking-tight sm:text-6xl">
-              Your future,{" "}
-              <span className="text-accent">across borders.</span>
-            </h1>
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-primary-foreground/75">
-              We help Indian students build strong applications and secure admissions to top universities across{" "}
-              {countries.length} countries worldwide.
-            </p>
-            <a
-              href="tel:+919876543210"
-              className="mt-8 inline-flex items-center gap-2 rounded-lg bg-accent px-5 py-3.5 text-sm font-bold text-ink"
-            >
-              Speak with an advisor <ArrowUpRight className="size-4" />
-            </a>
+          <div className="mx-auto grid max-w-7xl items-center gap-8 px-5 py-20 sm:px-8 md:grid-cols-[55fr_45fr] md:py-28">
+            <div>
+              <p className="mb-4 text-sm font-bold uppercase tracking-[0.16em] text-accent">Foreign University Admissions</p>
+              <h1 className="max-w-3xl text-balance text-4xl font-bold tracking-tight sm:text-6xl">
+                Your future,{" "}
+                <span className="text-accent">across borders.</span>
+              </h1>
+              <p className="mt-6 max-w-2xl text-lg leading-8 text-primary-foreground/75">
+                We help Indian students build strong applications and secure admissions to top universities across{" "}
+                {countries.length} countries worldwide.
+              </p>
+              <a
+                href="tel:+919876543210"
+                className="mt-8 inline-flex items-center gap-2 rounded-lg bg-accent px-5 py-3.5 text-sm font-bold text-ink"
+              >
+                Speak with an advisor <ArrowUpRight className="size-4" />
+              </a>
+            </div>
+            <div className="relative flex justify-center md:justify-end mt-10 md:mt-0">
+              <Image
+                src="/images/foreign-university-banner.png"
+                alt="Students exploring international university opportunities"
+                width={584}
+                height={381}
+                className="w-full max-w-md md:max-w-none h-auto object-contain object-right"
+                priority
+              />
+            </div>
           </div>
         </section>
 

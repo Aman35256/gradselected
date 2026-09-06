@@ -1,4 +1,5 @@
-﻿import { ArrowUpRight, MapPin, FlaskConical, Stethoscope } from "lucide-react"
+import Image from "next/image"
+import { ArrowUpRight, MapPin, FlaskConical, Stethoscope } from "lucide-react"
 import { DirectContactCard, PageFrame } from "@/components/site-shell"
 import engineering from "@/data/engineering.json"
 
@@ -41,23 +42,36 @@ export default function EngineeringPage() {
       <main>
         {/* Hero */}
         <section className="bg-primary text-primary-foreground">
-          <div className="mx-auto max-w-7xl px-5 py-20 sm:px-8 md:py-28">
-            <p className="mb-4 text-sm font-bold uppercase tracking-[0.16em] text-accent">Engineering & Medical</p>
-            <h1 className="max-w-3xl text-balance text-4xl font-bold tracking-tight sm:text-6xl">
-              The right college for your{" "}
-              <span className="text-accent">science ambitions.</span>
-            </h1>
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-primary-foreground/75">
-              From B.Tech admissions to NEET counselling, we guide you to the best engineering and medical colleges in India.
-            </p>
-            <a
-              href="tel:+919876543210"
-              className="mt-8 inline-flex items-center gap-2 rounded-lg bg-accent px-5 py-3.5 text-sm font-bold text-ink"
-            >
-              Speak with an advisor <ArrowUpRight className="size-4" />
-            </a>
+          <div className="mx-auto grid max-w-7xl items-center gap-8 px-5 py-20 sm:px-8 md:grid-cols-[55fr_45fr] md:py-28">
+            <div>
+              <p className="mb-4 text-sm font-bold uppercase tracking-[0.16em] text-accent">Engineering & Medical</p>
+              <h1 className="max-w-3xl text-balance text-4xl font-bold tracking-tight sm:text-6xl">
+                The right college for your{" "}
+                <span className="text-accent">science ambitions.</span>
+              </h1>
+              <p className="mt-6 max-w-2xl text-lg leading-8 text-primary-foreground/75">
+                From B.Tech admissions to NEET counselling, we guide you to the best engineering and medical colleges in India.
+              </p>
+              <a
+                href="tel:+919876543210"
+                className="mt-8 inline-flex items-center gap-2 rounded-lg bg-accent px-5 py-3.5 text-sm font-bold text-ink"
+              >
+                Speak with an advisor <ArrowUpRight className="size-4" />
+              </a>
+            </div>
+            <div className="relative flex justify-center md:justify-end mt-10 md:mt-0">
+              <Image
+                src="/images/engineering-medical-banner.png"
+                alt="Engineering and medical students"
+                width={744}
+                height={682}
+                className="w-full max-w-md md:max-w-none h-auto object-contain object-right"
+                priority
+              />
+            </div>
           </div>
         </section>
+
 
         {/* Stats */}
         <section className="border-b border-border bg-background">
