@@ -11,10 +11,10 @@ const navItems = [
   { label: 'Home', href: '/' },
   { label: 'About Us', href: '/about' },
   { label: 'MBA Admissions', href: '/admissions' },
-  { label: 'Engineering & Medical', href: '/engineering' },
   { label: 'Foreign Universities', href: '/foreign' },
   { label: 'Achievements', href: '/achievements' },
 ]
+
 
 export function SiteHeader() {
   const pathname = usePathname()
@@ -148,7 +148,7 @@ export function SiteFooter() {
               <span className="logo-tooltip">MBA Connect India</span>
             </div>
           </div>
-          <p className="max-w-sm leading-7 text-primary-foreground/65">MBA, engineering, medical, and foreign university admissions guidance for ambitious students.</p>
+          <p className="max-w-sm leading-7 text-primary-foreground/65">MBA and foreign university admissions guidance for ambitious students.</p>
         </div>
 
         <div>

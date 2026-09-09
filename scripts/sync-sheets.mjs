@@ -22,9 +22,9 @@ const ROOT = path.resolve(__dirname, '..')
 const SHEET_ID = '1IWmOWe1UujJe6SwuV0AO_wD67eTKVSpei9ZYG2I2_YU'
 const TABS = [
   { name: 'colleges', gid: '650330242' },
-  { name: 'engineering', gid: '825896550' },
   { name: 'foreign', gid: '1166061734' },
 ]
+
 // ─────────────────────────────────────────────────────────────────────────────
 
 function csvToJson(csvText) {

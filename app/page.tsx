@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { ArrowUpRight, BookOpen, CheckCircle2, GraduationCap, LineChart, Sparkles, Users } from 'lucide-react'
+import { ArrowUpRight, CheckCircle2, GraduationCap, LineChart, Sparkles, Users } from 'lucide-react'
 import { DirectContactCard, PageFrame } from '@/components/site-shell'
 
 const programs = [
@@ -11,18 +11,13 @@ const programs = [
     href: '/admissions',
   },
   {
-    icon: BookOpen,
-    title: 'Engineering & Medical Admissions',
-    text: 'Get expert guidance for admission to leading engineering and medical colleges in India.',
-    href: '/engineering',
-  },
-  {
     icon: LineChart,
     title: 'Foreign University Admissions',
     text: 'Shape a strong application profile for universities abroad with clear, practical milestones.',
     href: '/foreign',
   },
 ]
+
 
 const gallery = [
   {
@@ -141,7 +136,7 @@ export default function Page() {
               <ArrowUpRight className="size-4 transition-transform duration-300 group-hover:-translate-y-1 group-hover:translate-x-1" />
             </Link>
           </div>
-          <div className="grid gap-4 md:grid-cols-3">
+          <div className="grid gap-4 md:grid-cols-2">
             {programs.map(({ icon: Icon, title, text, href }) => (
               <article key={title} className="interactive-card group rounded-2xl border border-border bg-background p-6">
                 <div className="mb-8 grid size-12 place-items-center rounded-xl bg-secondary text-primary transition-all duration-300 group-hover:-translate-y-1 group-hover:rotate-3 group-hover:bg-primary group-hover:text-primary-foreground sm:mb-10">

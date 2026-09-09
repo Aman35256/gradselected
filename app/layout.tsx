@@ -4,7 +4,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'MBA Connect India | Guide, Prepare, Get There',
-  description: 'MBA Connect India helps students with engineering, medical, MBA, and foreign university admissions.',
+  description: 'MBA Connect India helps students with MBA and foreign university admissions.',
   generator: 'v0.app',
   icons: {
     icon: [
