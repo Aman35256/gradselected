@@ -1,7 +1,6 @@
 'use client'
 
 import { AnalysisResult } from '@/lib/analyzer/types'
-import { LeadCaptureForm } from './lead-capture-form'
 import {
   ArrowUpRight,
   CheckCircle2,
@@ -218,11 +217,6 @@ export function ResultsView({ result, onReset }: ResultsViewProps) {
               <ArrowUpRight className="size-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
             </a>
           </div>
-        </div>
-
-        {/* Lead Capture Form */}
-        <div className="mt-6 pt-6 border-t border-border/60">
-          <LeadCaptureForm />
         </div>
       </div>
 
