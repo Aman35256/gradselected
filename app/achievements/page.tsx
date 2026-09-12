@@ -3,17 +3,57 @@ import { ArrowUpRight, Quote } from 'lucide-react'
 import { DirectContactCard, PageFrame } from '@/components/site-shell'
 
 const stories = [
-  { name: 'Riya Mehta', detail: 'MBA - Symbiosis International University', quote: 'I was confused about which college would be right for me. The team understood my preferences and helped me shortlist the options that matched my career goals.' },
-  { name: 'Arjun Shah', detail: 'IIM Indore - PGP', quote: 'The preparation was structured, honest, and completely tailored to my goals.' },
-  { name: 'Neha Kapoor', detail: 'SPJIMR Mumbai - PGDM', quote: 'I went from feeling overwhelmed to having a plan I could actually follow.' },
-  { name: 'Aarav Sharma', detail: 'MBA - NMIMS Mumbai', quote: 'MBAConnectIndia helped me understand my options and guided me throughout the admission process. The counselling was clear, practical, and really helped me make a confident decision.' },
-  { name: 'Kunal Verma', detail: 'MBA - Manipal Academy of Higher Education', quote: 'The guidance I received made the entire admission process much easier. I got clarity about the college, course, application process, and important deadlines.' },
-  { name: 'Ananya Gupta', detail: 'MBA - Christ University', quote: 'The counselling session gave me a much better understanding of my MBA options. I really appreciated the personalised approach and straightforward guidance.' },
-  { name: 'Rahul Malhotra', detail: 'MBA - Amity University', quote: 'MBAConnectIndia made the college selection process much less stressful. Their guidance helped me compare different options and choose the one that suited me best.' },
-  { name: 'Sneha Kapoor', detail: 'MBA - UPES Dehradun', quote: 'I had several doubts about choosing the right MBA programme. The counselling team patiently answered my questions and helped me move forward with much more confidence.' },
-  { name: 'Aditya Jain', detail: 'MBA - Great Lakes Institute of Management', quote: 'The entire experience was smooth and informative. I received useful guidance at every stage and had much more clarity about my admission decision.' },
-  { name: 'Ishita Agarwal', detail: 'MBA - Welingkar Institute of Management', quote: 'The personalised counselling was exactly what I needed. Instead of giving generic suggestions, the team helped me understand which options were most suitable for my profile.' },
-]
+  {
+    name: 'Riya Mehta',
+    detail: 'MBA - Symbiosis International University',
+    quote: 'I had too many options and was not sure where to begin. The counselling helped me understand which colleges actually suited my profile, budget, and career plans.'
+  },
+  {
+    name: 'Arjun Shah',
+    detail: 'IIM Indore - PGP',
+    quote: 'What I liked most was the clarity. Instead of simply suggesting colleges, the team explained the admission process, important deadlines, and what I needed to focus on.'
+  },
+  {
+    name: 'Neha Kapoor',
+    detail: 'PGDM - SPJIMR Mumbai',
+    quote: 'The process initially felt overwhelming, but the guidance gave me a clear plan. Every conversation helped me understand my next step and make decisions with more confidence.'
+  },
+  {
+    name: 'Aarav Sharma',
+    detail: 'MBA - NMIMS Mumbai',
+    quote: 'I was comparing several MBA colleges and found it difficult to understand the differences. The counselling helped me compare my options objectively and choose a programme that fit my goals.'
+  },
+  {
+    name: 'Kunal Verma',
+    detail: 'MBA - Manipal Academy of Higher Education',
+    quote: 'From understanding eligibility and fees to keeping track of applications and deadlines, I received guidance throughout the process. It made the admission journey much more manageable.'
+  },
+  {
+    name: 'Ananya Gupta',
+    detail: 'MBA - Christ University',
+    quote: 'The counselling session was personalised to my profile rather than being a generic college recommendation. I got answers to the questions I had been struggling with and much better clarity about my options.'
+  },
+  {
+    name: 'Rahul Malhotra',
+    detail: 'MBA - Amity University',
+    quote: 'I was unsure which college would give me the right balance of academics, opportunities, and affordability. The team helped me compare everything clearly before making my decision.'
+  },
+  {
+    name: 'Sneha Kapoor',
+    detail: 'MBA - UPES Dehradun',
+    quote: 'I had several doubts about the admission process and kept changing my mind. The counsellors were patient, explained my options clearly, and helped me move forward with confidence.'
+  },
+  {
+    name: 'Aditya Jain',
+    detail: 'MBA - Great Lakes Institute of Management',
+    quote: 'The biggest difference for me was having someone explain the process step by step. I knew what to do, what deadlines to watch, and how each option compared with the others.'
+  },
+  {
+    name: 'Ishita Agarwal',
+    detail: 'MBA - Welingkar Institute of Management',
+    quote: 'The advice felt practical and specific to my profile. Rather than pushing one particular college, the team helped me understand the pros and cons of different choices so I could decide for myself.'
+  }
+];
 
 export default function AchievementsPage() {
   return (
