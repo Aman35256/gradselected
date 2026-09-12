@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowUpRight, CheckCircle2, GraduationCap, LineChart, Sparkles, Users } from 'lucide-react'
 import { DirectContactCard, PageFrame } from '@/components/site-shell'
+import { AnalyzerBanner } from '@/components/analyzer/analyzer-banner'
 
 const programs = [
   {
@@ -151,6 +152,10 @@ export default function Page() {
               </article>
             ))}
           </div>
+        </section>
+
+        <section className="mx-auto max-w-7xl px-4 pb-16 sm:px-6 sm:pb-20 lg:px-8">
+          <AnalyzerBanner />
         </section>
 
         <section className="bg-ink text-primary-foreground">

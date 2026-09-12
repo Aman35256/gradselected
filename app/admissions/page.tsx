@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { useMemo, useState } from 'react'
 import { ArrowUpRight, CheckCircle2, ExternalLink, GraduationCap, MapPin, Search, X } from 'lucide-react'
 import { DirectContactCard, PageFrame } from '@/components/site-shell'
+import { AnalyzerBanner } from '@/components/analyzer/analyzer-banner'
 import colleges from '@/data/colleges.json'
 
 type College = {
@@ -118,6 +119,10 @@ export default function AdmissionsPage() {
               ))}
             </div>
           </div>
+        </section>
+
+        <section className="mx-auto max-w-7xl px-4 pt-12 sm:px-6 lg:px-8">
+          <AnalyzerBanner />
         </section>
 
         <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-28">
