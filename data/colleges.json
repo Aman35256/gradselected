@@ -1,140 +1,602 @@
 [
   {
-    "institution": "NMIMS",
-    "location": "Mumbai",
+    "institution": "FMS Delhi",
+    "slug": "fms-delhi",
+    "location": "New Delhi",
     "programs": "MBA / Management",
-    "counsellorSupport": "Counselling & application guidance"
+    "entranceExams": [
+      "CAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.fms.edu/"
   },
   {
-    "institution": "Symbiosis Institute of Business Management",
-    "location": "Pune",
-    "programs": "MBA",
-    "counsellorSupport": "Counselling & application guidance"
-  },
-  {
-    "institution": "Christ University",
-    "location": "Bengaluru",
-    "programs": "MBA",
-    "counsellorSupport": "Counselling & application guidance"
-  },
-  {
-    "institution": "Amity University",
-    "location": "Noida",
-    "programs": "MBA / Management",
-    "counsellorSupport": "Counselling & application guidance"
-  },
-  {
-    "institution": "ICFAI Business School",
-    "location": "Hyderabad",
-    "programs": "MBA / PGPM",
-    "counsellorSupport": "Counselling & application guidance"
-  },
-  {
-    "institution": "Welingkar Institute of Management",
-    "location": "Mumbai",
+    "institution": "IMT Ghaziabad",
+    "slug": "imt-ghaziabad",
+    "location": "Ghaziabad, Uttar Pradesh",
     "programs": "MBA / PGDM",
-    "counsellorSupport": "Counselling & application guidance"
+    "entranceExams": [
+      "CAT",
+      "XAT",
+      "GMAT",
+      "CMAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.imt.edu/"
   },
   {
-    "institution": "XIME",
-    "location": "Bengaluru",
+    "institution": "FORE School of Management",
+    "slug": "fore-school-of-management",
+    "location": "New Delhi",
     "programs": "MBA / PGDM",
-    "counsellorSupport": "Counselling & application guidance"
-  },
-  {
-    "institution": "JAGSoM",
-    "location": "Bengaluru",
-    "programs": "MBA / PGDM",
-    "counsellorSupport": "Counselling & application guidance"
-  },
-  {
-    "institution": "Alliance University",
-    "location": "Bengaluru",
-    "programs": "MBA",
-    "counsellorSupport": "Counselling & application guidance"
-  },
-  {
-    "institution": "UPES School of Business",
-    "location": "Dehradun",
-    "programs": "MBA",
-    "counsellorSupport": "Counselling & application guidance"
-  },
-  {
-    "institution": "Chandigarh University",
-    "location": "Chandigarh",
-    "programs": "MBA",
-    "counsellorSupport": "Counselling & application guidance"
-  },
-  {
-    "institution": "Lovely Professional University",
-    "location": "Punjab",
-    "programs": "MBA",
-    "counsellorSupport": "Counselling & application guidance"
-  },
-  {
-    "institution": "Sharda University",
-    "location": "Greater Noida",
-    "programs": "MBA",
-    "counsellorSupport": "Counselling & application guidance"
-  },
-  {
-    "institution": "Galgotias University",
-    "location": "Greater Noida",
-    "programs": "MBA",
-    "counsellorSupport": "Counselling & application guidance"
-  },
-  {
-    "institution": "Bennett University",
-    "location": "Greater Noida",
-    "programs": "MBA",
-    "counsellorSupport": "Counselling & application guidance"
-  },
-  {
-    "institution": "IILM University",
-    "location": "Gurugram",
-    "programs": "MBA",
-    "counsellorSupport": "Counselling & application guidance"
-  },
-  {
-    "institution": "Jaipuria Institute of Management",
-    "location": "Noida",
-    "programs": "MBA / PGDM",
-    "counsellorSupport": "Counselling & application guidance"
-  },
-  {
-    "institution": "JIMS Rohini",
-    "location": "Delhi",
-    "programs": "MBA / PGDM",
-    "counsellorSupport": "Counselling & application guidance"
-  },
-  {
-    "institution": "SOIL Institute of Management",
-    "location": "Gurugram",
-    "programs": "MBA / PGDM",
-    "counsellorSupport": "Counselling & application guidance"
+    "entranceExams": [
+      "CAT",
+      "XAT",
+      "GMAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.fsm.ac.in/"
   },
   {
     "institution": "Great Lakes Institute of Management",
-    "location": "Chennai",
+    "slug": "great-lakes-institute-of-management",
+    "location": "Chennai / Gurgaon",
     "programs": "MBA / PGDM",
-    "counsellorSupport": "Counselling & application guidance"
+    "entranceExams": [
+      "CAT",
+      "XAT",
+      "GMAT",
+      "NMAT",
+      "CMAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.greatlakes.edu.in/"
+  },
+  {
+    "institution": "NMIMS",
+    "slug": "nmims",
+    "location": "Mumbai",
+    "programs": "MBA / Management",
+    "entranceExams": [
+      "NMAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.nmims.edu/"
+  },
+  {
+    "institution": "Symbiosis Institute of Business Management (SIBM Pune)",
+    "slug": "symbiosis-institute-of-business-management-sibm-pune",
+    "location": "Pune",
+    "programs": "MBA",
+    "entranceExams": [
+      "SNAP"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.sibm.edu/"
+  },
+  {
+    "institution": "Christ University",
+    "slug": "christ-university",
+    "location": "Bengaluru",
+    "programs": "MBA",
+    "entranceExams": [
+      "CAT",
+      "XAT",
+      "MAT",
+      "CMAT",
+      "ATMA",
+      "GMAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://christuniversity.in/"
+  },
+  {
+    "institution": "Amity University",
+    "slug": "amity-university",
+    "location": "Noida",
+    "programs": "MBA / Management",
+    "entranceExams": [
+      "CAT",
+      "MAT",
+      "XAT",
+      "CMAT",
+      "NMAT",
+      "Amity Test"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.amity.edu/"
+  },
+  {
+    "institution": "Welingkar Institute of Management (WeSchool)",
+    "slug": "welingkar-institute-of-management-weschool",
+    "location": "Mumbai",
+    "programs": "MBA / PGDM",
+    "entranceExams": [
+      "CAT",
+      "XAT",
+      "CMAT",
+      "ATMA",
+      "GMAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.welingkar.org/"
+  },
+  {
+    "institution": "XIME",
+    "slug": "xime",
+    "location": "Bengaluru",
+    "programs": "MBA / PGDM",
+    "entranceExams": [
+      "CAT",
+      "XAT",
+      "CMAT",
+      "MAT",
+      "ATMA"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://xime.org/"
+  },
+  {
+    "institution": "XLRI",
+    "slug": "xlri",
+    "location": "Jamshedpur",
+    "programs": "MBA / PGDM",
+    "entranceExams": [
+      "XAT",
+      "GMAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://xlri.ac.in/"
+  },
+  {
+    "institution": "MDI Gurgaon",
+    "slug": "mdi-gurgaon",
+    "location": "Gurugram",
+    "programs": "MBA / PGDM",
+    "entranceExams": [
+      "CAT",
+      "GMAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.mdi.ac.in/"
+  },
+  {
+    "institution": "MICA",
+    "slug": "mica",
+    "location": "Ahmedabad",
+    "programs": "MBA / PGDM",
+    "entranceExams": [
+      "CAT",
+      "XAT",
+      "MICAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.mica.ac.in/"
+  },
+  {
+    "institution": "ISB",
+    "slug": "isb",
+    "location": "Hyderabad / Mohali",
+    "programs": "MBA / Management",
+    "entranceExams": [
+      "GMAT",
+      "GRE"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.isb.edu/"
+  },
+  {
+    "institution": "JBIMS",
+    "slug": "jbims",
+    "location": "Mumbai",
+    "programs": "MBA",
+    "entranceExams": [
+      "MAH MBA CET",
+      "CAT",
+      "CMAT",
+      "XAT",
+      "MAT",
+      "ATMA"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://jbims.edu/"
+  },
+  {
+    "institution": "SIMSREE",
+    "slug": "simsree",
+    "location": "Mumbai",
+    "programs": "MBA / MMS",
+    "entranceExams": [
+      "MAH MBA CET",
+      "CAT",
+      "CMAT",
+      "XAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://simsree.org/"
+  },
+  {
+    "institution": "PUMBA",
+    "slug": "pumba",
+    "location": "Pune",
+    "programs": "MBA",
+    "entranceExams": [
+      "MAH MBA CET"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://pumba.in/"
+  },
+  {
+    "institution": "SDA Bocconi Asia Center",
+    "slug": "sda-bocconi-asia-center",
+    "location": "Mumbai",
+    "programs": "MBA / Management",
+    "entranceExams": [
+      "CAT",
+      "NMAT",
+      "GMAT",
+      "GRE"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.sdabocconiasiacenter.com/"
+  },
+  {
+    "institution": "BITSOM",
+    "slug": "bitsom",
+    "location": "Mumbai",
+    "programs": "MBA",
+    "entranceExams": [
+      "CAT",
+      "GMAT",
+      "GRE"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.bitsom.edu.in/"
+  },
+  {
+    "institution": "GIM (Goa Institute of Management)",
+    "slug": "gim-goa-institute-of-management",
+    "location": "Goa",
+    "programs": "MBA / PGDM",
+    "entranceExams": [
+      "CAT",
+      "XAT",
+      "GMAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.gim.ac.in/"
+  },
+  {
+    "institution": "SPJIMR",
+    "slug": "spjimr",
+    "location": "Mumbai",
+    "programs": "MBA / PGDM",
+    "entranceExams": [
+      "CAT",
+      "XAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.spjimr.org/"
+  },
+  {
+    "institution": "FLAME University",
+    "slug": "flame-university",
+    "location": "Pune",
+    "programs": "MBA",
+    "entranceExams": [
+      "CAT",
+      "XAT",
+      "CMAT",
+      "NMAT",
+      "GMAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.flame.edu.in/"
+  },
+  {
+    "institution": "NIBM Pune",
+    "slug": "nibm-pune",
+    "location": "Pune",
+    "programs": "MBA / PGDM",
+    "entranceExams": [
+      "CAT",
+      "XAT",
+      "CMAT",
+      "MAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.nibmindia.org/"
+  },
+  {
+    "institution": "DSE (Delhi School of Economics)",
+    "slug": "dse-delhi-school-of-economics",
+    "location": "New Delhi",
+    "programs": "MBA / Management",
+    "entranceExams": [
+      "CAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.du.ac.in/"
+  },
+  {
+    "institution": "XIMB",
+    "slug": "ximb",
+    "location": "Bhubaneswar",
+    "programs": "MBA / Management",
+    "entranceExams": [
+      "CAT",
+      "XAT",
+      "GMAT",
+      "XGMT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://xim.edu.in/"
+  },
+  {
+    "institution": "All IIMs",
+    "slug": "all-iims",
+    "location": "Across India",
+    "programs": "MBA / Management",
+    "entranceExams": [
+      "CAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://iimcat.ac.in/"
+  },
+  {
+    "institution": "ICFAI Business School",
+    "slug": "icfai-business-school",
+    "location": "Hyderabad",
+    "programs": "MBA / PGPM",
+    "entranceExams": [
+      "IBSAT",
+      "CAT",
+      "XAT",
+      "GMAT",
+      "NMAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.ibsindia.org/"
+  },
+  {
+    "institution": "JAGSoM",
+    "slug": "jagsom",
+    "location": "Bengaluru",
+    "programs": "MBA / PGDM",
+    "entranceExams": [
+      "CAT",
+      "XAT",
+      "CMAT",
+      "GMAT",
+      "MAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://jagsom.edu.in/"
+  },
+  {
+    "institution": "Alliance University",
+    "slug": "alliance-university",
+    "location": "Bengaluru",
+    "programs": "MBA",
+    "entranceExams": [
+      "CAT",
+      "XAT",
+      "GMAT",
+      "NMAT",
+      "MAT",
+      "CMAT",
+      "AMAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.alliance.edu.in/"
+  },
+  {
+    "institution": "UPES School of Business",
+    "slug": "upes-school-of-business",
+    "location": "Dehradun",
+    "programs": "MBA",
+    "entranceExams": [
+      "UPESMET",
+      "CAT",
+      "XAT",
+      "MAT",
+      "CMAT",
+      "GMAT",
+      "NMAT",
+      "CUET-PG"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.upes.ac.in/"
+  },
+  {
+    "institution": "Chandigarh University",
+    "slug": "chandigarh-university",
+    "location": "Chandigarh / Mohali",
+    "programs": "MBA",
+    "entranceExams": [
+      "CUCET",
+      "CAT",
+      "MAT",
+      "XAT",
+      "CMAT",
+      "ATMA"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.cuchd.in/"
+  },
+  {
+    "institution": "Lovely Professional University",
+    "slug": "lovely-professional-university",
+    "location": "Punjab",
+    "programs": "MBA",
+    "entranceExams": [
+      "LPUNEST",
+      "CAT",
+      "XAT",
+      "MAT",
+      "CMAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.lpu.in/"
+  },
+  {
+    "institution": "Sharda University",
+    "slug": "sharda-university",
+    "location": "Greater Noida",
+    "programs": "MBA",
+    "entranceExams": [
+      "SUAT",
+      "MAT",
+      "CAT",
+      "XAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.sharda.ac.in/"
+  },
+  {
+    "institution": "Galgotias University",
+    "slug": "galgotias-university",
+    "location": "Greater Noida",
+    "programs": "MBA",
+    "entranceExams": [
+      "GUMAT",
+      "MAT",
+      "CAT",
+      "XAT",
+      "GMAT",
+      "CMAT",
+      "NMAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.galgotiasuniversity.edu.in/"
+  },
+  {
+    "institution": "Bennett University",
+    "slug": "bennett-university",
+    "location": "Greater Noida",
+    "programs": "MBA",
+    "entranceExams": [
+      "CAT",
+      "XAT",
+      "NMAT",
+      "MAT",
+      "CMAT",
+      "GMAT",
+      "BU-MAT",
+      "CUET"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.bennett.edu.in/"
+  },
+  {
+    "institution": "IILM University",
+    "slug": "iilm-university",
+    "location": "Gurugram",
+    "programs": "MBA",
+    "entranceExams": [
+      "CAT",
+      "XAT",
+      "MAT",
+      "NMAT",
+      "CMAT",
+      "GMAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://iilm.edu/"
+  },
+  {
+    "institution": "Jaipuria Institute of Management",
+    "slug": "jaipuria-institute-of-management",
+    "location": "Noida",
+    "programs": "MBA / PGDM",
+    "entranceExams": [
+      "CAT",
+      "XAT",
+      "CMAT",
+      "MAT",
+      "GMAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.jaipuria.ac.in/"
+  },
+  {
+    "institution": "JIMS Rohini",
+    "slug": "jims-rohini",
+    "location": "Delhi",
+    "programs": "MBA / PGDM",
+    "entranceExams": [
+      "CAT",
+      "MAT",
+      "CMAT",
+      "XAT",
+      "ATMA",
+      "GMAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.jimsindia.org/"
+  },
+  {
+    "institution": "SOIL Institute of Management",
+    "slug": "soil-institute-of-management",
+    "location": "Gurugram",
+    "programs": "MBA / PGDM",
+    "entranceExams": [
+      "CAT",
+      "NMAT",
+      "XAT",
+      "GMAT",
+      "MAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://www.soil.edu.in/"
   },
   {
     "institution": "KJ Somaiya Institute of Management",
+    "slug": "kj-somaiya-institute-of-management",
     "location": "Mumbai",
     "programs": "MBA",
-    "counsellorSupport": "Counselling & application guidance"
+    "entranceExams": [
+      "CAT",
+      "XAT",
+      "GMAT",
+      "NMAT",
+      "CMAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://kjsim.somaiya.edu/"
   },
   {
     "institution": "MIT World Peace University",
+    "slug": "mit-world-peace-university",
     "location": "Pune",
     "programs": "MBA",
-    "counsellorSupport": "Counselling & application guidance"
+    "entranceExams": [
+      "CAT",
+      "XAT",
+      "NMAT",
+      "GMAT",
+      "CMAT",
+      "MAH MBA CET",
+      "PERA",
+      "MAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://mitwpu.edu.in/"
   },
   {
     "institution": "KIIT School of Management",
+    "slug": "kiit-school-of-management",
     "location": "Bhubaneswar",
     "programs": "MBA",
-    "counsellorSupport": "Counselling & application guidance"
+    "entranceExams": [
+      "KIITEE Management",
+      "CAT",
+      "MAT",
+      "XAT",
+      "CMAT",
+      "GMAT"
+    ],
+    "counsellorSupport": "Counselling & application guidance",
+    "website": "https://ksom.ac.in/"
   }
 ]
